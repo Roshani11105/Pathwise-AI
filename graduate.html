@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Graduate - Pathwise AI</title>
+	<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+	<div class="container">
+		<h2>Graduate Resume Regeneration</h2>
+		<form id="resumeForm">
+			<label>Name<input type="text" name="name" required /></label>
+			<label>Upload Resume (plain .txt preferred)<input type="file" name="resume" accept=".txt,.md,.pdf,.doc,.docx" required /></label>
+			<button class="button" type="submit">Regenerate</button>
+		</form>
+		<pre id="resumeOut" class="output"></pre>
+	
+        <pre id="resumeOut" class="output"></pre>
+        <button id="downloadBtn" class="button" type="button" style="display:none">Download .txt</button>
+
+    </div>
+	<script src="/graduate.js"></script>
+</body>
+</html>

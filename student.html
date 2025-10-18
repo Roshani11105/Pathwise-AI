@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Student - Pathwise AI</title>
+	<link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+	<div class="container">
+		<h2>Student Career Guidance</h2>
+		<form id="studentForm">
+			<label>Name<input type="text" name="name" required /></label>
+			<label>Standard/Year<input type="text" name="standard" required /></label>
+			<label>Hobbies (comma separated)<input type="text" name="hobbies" placeholder="e.g., singing, drawing, sports" /></label>
+			<label>Skills (comma separated)<input type="text" name="skills" placeholder="e.g., coding, problem-solving, design" /></label>
+			<label>Career Interest / Goal<input type="text" name="careerInterest" placeholder="e.g., Doctor, Engineer, Artist, IAS Officer" /></label>
+			<button class="button" type="submit">Get Guidance</button>
+		</form>
+		<pre id="guidance" class="output"></pre>
+	</div>
+	<script src="/student.js"></script>
+</body>
+</html>
